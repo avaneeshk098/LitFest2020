@@ -1,0 +1,369 @@
+{% load static %}
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>LitFest 2020 - Home</title>
+    <link rel="stylesheet" href={% static 'bootstrap/css/bootstrap.min.css' %}>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <script defer crossorigin = "anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer crossorigin = "anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <link rel="stylesheet" href={% static 'css/styles.min.css' %}>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#home">LIT FEST 2020</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#timeline">TIMELINE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <section id="home" class="clean-block clean-hero" style="color: rgba(101,85,85,0.85);background: url(&quot;{% static 'img/tech/pexels-pixabay-207662.jpg' %}&quot;);background-size: cover;">
+            <div class="text">
+                <h2>Welcome to LIT FEST 2020 !</h2>
+                <a href="#timeline"><button class="btn btn-outline-light btn-lg" type="button">Register Now!</button></a></div>
+        </section>
+        <section class="d-flex float-none flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-center clean-block about-us" id="about" style="padding-top: 100px;">
+            <div class="d-inline-block float-none d-lg-flex flex-column justify-content-lg-center align-items-lg-center block-heading" style="height: auto;padding-top: 0px;margin-top: 0;margin-bottom: 0;">
+                <h2 class="text-info">About Lit Fest 2020</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+            </div>
+        </section>
+        <section class="d-flex float-none flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-center clean-block about-us" id="timeline" style="padding-top: 100px;">
+            <div class="d-inline-block float-none d-lg-flex flex-column justify-content-lg-center align-items-lg-center block-heading" style="height: auto;padding-top: 0px;margin-top: 0;margin-bottom: 0;">
+                <h2 class="text-info">Lit Fest 2020</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                <h1 style="margin-top: 2rem;margin-bottom: 2rem;">Juniors (6 - 8)</h1>
+            </div>
+            <!-- Start: Timeline -->
+            <section id="section-timeline" style="padding-top: 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-group timeline">
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/1.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>8:00am - 8:30am</h4>
+                                            <h4 class="subheading">Inauguration and Slam Poetry</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                            <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/2.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>8:30am - 9:15am</h4>
+                                            <h4 class="subheading">Myth Storytelling</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                            <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/3.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>9:30am - 10:30am</h4>
+                                            <h4 class="subheading">Crime Whodunit</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/4.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>10:30am - 11:15am</h4>
+                                            <h4 class="subheading">Sci-Fi</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/1.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>11:15am - 12:15pm</h4>
+                                            <h4 class="subheading">Comics</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/4.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>12:45pm - 1:45pm</h4>
+                                            <h4 class="subheading">Poetry Live Writing</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/1.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>2pm - 3pm</h4>
+                                            <h4 class="subheading">Stand Up Comedy + Closing Ceremony</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End: Timeline -->
+            <h1 style="margin-top: 2rem;margin-bottom: 2rem;">Seniors (9 - 10)</h1>
+            <!-- Start: Timeline -->
+            <section id="section-timeline-1" style="padding-top: 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-group timeline">
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/1.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>8:00am - 8:30am</h4>
+                                            <h4 class="subheading">Inauguration and Slam Poetry</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/2.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>8:30am - 9:15am</h4>
+                                            <h4 class="subheading">History Debate</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/3.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>9:15am - 9:30am</h4>
+                                            <h4 class="subheading">Crime Update 1</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/4.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>9:30am - 10:30am</h4>
+                                            <h4 class="subheading">Classics Quiz &amp; Live Illustration<br></h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/1.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>10:30am - 11:15pm</h4>
+                                            <h4 class="subheading">Comics</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/4.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>11:15pm - 12:15pm</h4>
+                                            <h4 class="subheading">Poetry Live Writing</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                                </p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/1.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>12:15pm - 12:45pm</h4>
+                                            <h4 class="subheading">Lunch + Crime Update 2</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde.</p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/4.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>12:45pm - 1:45pm</h4>
+                                            <h4 class="subheading">Sci-fi</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde,</p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/1.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>1:45pm - 2:00pm</h4>
+                                            <h4 class="subheading">Break +&nbsp;Crime Update 3</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde.</p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item timeline-inverted">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src={% static "img/4.jpg" %}></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>2:00pm - 3:00pm</h4>
+                                            <h4 class="subheading">Stand Up Comedy + Closing Ceremony</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde,</p>
+                                                                                        <br>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIrIVrfervPPq1yH-zsQGN3Mob4ma41u4AoqFtK_bG7kVHbA/viewform?usp=sf_link"><button class="btn btn-primary">Register</button></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End: Timeline -->
+        </section>
+        <section class="d-flex float-none flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-center clean-block about-us" id="contact" style="padding-top: 0;background: #fff5f5;padding-bottom: 0;">
+            <!-- Start: Contact Us Form -->
+            <section class="clean-block clean-form dark" style="background: #fff5f5;">
+                <div class="container" style="background: #fff5f5;">
+                    <!-- Start: Block-heading -->
+                    <div class="block-heading">
+                        <h2 class="text-info">Contact Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                    <!-- End: Block-heading -->
+                    <form id="signup-form">
+                        <div class="form-group"><label>Name</label><input class="form-control" required="required" data-validation-required-message="Please enter your name." id="inputName" type="text"></div>
+                        <div class="form-group"><label>Subject</label><input class="form-control" required="required" data-validation-required-message="Please enter your subject." type="text" id="inputSubject"></div>
+                        <div class="form-group"><label>Email</label><input class="form-control" type="text" required="required" data-validation-required-message="Please enter your email address." id="inputEmail"></div>
+                        <div class="form-group"><label>Message</label><textarea class="form-control" required="required" data-validation-required-message="Please enter your message." id="inputMessage"></textarea></div>
+                        <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send</button></div>
+                    </form>
+                </div>
+            </section>
+            <!-- End: Contact Us Form -->
+        </section>
+    </main>
+    <!-- Start: Footer Dark -->
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row" style="height: auto;">
+                <div class="col text-center" style="padding-top: 15px;padding-bottom: 15px;"><a href="#about">ABOUT</a></div>
+                <div class="col-lg-3 text-center" style="padding-top: 15px;padding-bottom: 15px;"><a href="#events" style="padding-top: 15px;padding-bottom: 15px;">EVENTS</a></div>
+                <div class="col-lg-3 text-center" style="padding-top: 15px;padding-bottom: 15px;"><a href="#timeline">TIMELINE</a></div>
+                <div class="col-lg-3 text-center" style="padding-top: 15px;padding-bottom: 15px;"><a href="#contact">CONTACT US</a></div>
+            </div>
+        </div>
+        <div class="footer-copyright" style="margin-top: 30px;padding-bottom: 30px;"><span class="text-white" style="margin-top: 10px;margin-right: 10px;margin-bottom: 10px;margin-left: 10px;"><br>© LIT FEST 2020&nbsp;<br><br></span><span style="color: rgb(255,255,255);text-align: right;margin: 10px;">Made by Avaneesh Kumar</span></div>
+    </footer>
+    <!-- End: Footer Dark -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src={% static "js/mail.js" %}></script>
+    <script src={% static "js/script.min.js" %}></script>
+</body>
+
+</html>
