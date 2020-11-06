@@ -32,7 +32,7 @@ $('#signup-form').submit((event) => {
         headers: {'X-CSRFtoken': csrftoken},
         cache: false,
         success: function () {
-            alert("Congratulations! You have successfully been added to the mailing list.")
+            alert("Congratulations! Your message has been sent successfully.")
             document.querySelector("#inputEmail").value = ""
             document.querySelector("#inputName").value = ""
             document.querySelector("#inputSubject").value = ""
