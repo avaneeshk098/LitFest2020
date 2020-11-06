@@ -13,5 +13,5 @@ def submail(request):
         name = request.POST.get('name')
         subject = request.POST.get('subject')
         message = request.POST.get('message')
-        send_mail(subject, message + '\n\n Sent by: ' + "\n\nName: " + name + "\n\nEmail: " + email, email, ['avaneeshk098@gmail.com'], fail_silently=False)
+        send_mail(subject, message + '\n\n Sent by: ' + "\n\nName: " + name + "\n\nEmail: " + email, email, ['literarycouncil.dpssbangalore@gmail.com'], fail_silently=False)
         return HttpResponseRedirect('/')
